@@ -12,11 +12,32 @@
     <div class = "container">
 
         <div class = "item cabecalho">    
-
+            <h1>Confeitaria do Marçal</h1>
+            <h2>não comprou, se deu mal!</h2>
         </div>
 
         <div class = "item centro">    
+            <label for="sabor">Sabor</label>
+            <input type="text" name="sabor" placeholder="Insira o sabor do bolo desejado" id="sabor" required>
+            
+            <label for="quantidade">Quantidade</label>
+            <input type="number" name="quantidade" placeholder="Insira o número de bolos desejados" id="codigo">
 
+            <label for="kit">Kit aniversário</label>
+                <select name="Kit aniversário" id="kit">
+                    <option value="1">Sim</option>
+                    <option value="2">Não</option>
+                </select>
+            
+            <legend>Extras</legend>
+            <input type="checkbox" name="motoboy" value="motoboy" id="motoboy">
+            <label for="motoboy">Motoboy Temático</label>
+            <input type="checkbox" name="musica" value="musica" id="musica">
+            <label for="musica">Entrega Musical</label>
+            <input type="checkbox" name="msg" value="msg" id="msg">
+            <label for="msg">Mensagem na caixa de som</label>
+            <input type="checkbox" name="tudo" value="tudo" id="tudo">
+            <label for="tudo">Combo com as 3 opções!!!</label>
         </div>
 
         <div class = "item rodape">    
